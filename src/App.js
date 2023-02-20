@@ -30,7 +30,7 @@ function App() {
   };
 
   const runApp = () => {
-    const idToken = liff.getIDToken();
+    const idToken = liff.getAccessToken();
     setIdToken(idToken);
     liff
       .getProfile()
